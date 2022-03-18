@@ -1,5 +1,5 @@
 import { useQuery } from '@apollo/client';
-import { ALL_MOVIES } from '../gqlQury'
+import { ALL_MOVIES } from '../../gqlOperation/gqlQuery'
 
 const Movie = () => {
     const { loading, error, data } = useQuery(ALL_MOVIES);
