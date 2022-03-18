@@ -1,0 +1,14 @@
+{
+    "watch": [
+      "index"
+    ],
+    "ext": "js, graphql, json",
+    "ignore": [
+      "node_modules"
+    ],
+    "delay": 2500,
+    "execMap": {
+        "js": "node"
+    },
+    "script": "index.js"
+  }
